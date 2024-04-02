@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" type="image/x-icon" href="imagens/favicon-16x16.png">
+  <title>Faculdade Borsuk | Página Inicial</title>
+</head>
+<body>
+  <header class="first-level">
+    <div class="first-levelD">
+      <nav class="fl_ajuda">
+        <ul class="cima">
+          <li class="first-levelA"><a href="https://api.whatsapp.com/send/?phone=5511&text&type=phone_number&app_absent=0"><i style="font-size:24px" class="fa">&#xf232;</i> Whatsapp</a></li>
+          <li class="first-levelA"><inscricao onmouseover="rotateArrow(this); abrirBarra()" onmouseout="resetArrow(this); fecharBarra()">
+            Acompanhe sua inscrição
+            <span class="arrow"></span>
+            <div class="barra">
+              <div class="informacoes_ajuda">
+                <a href="#"><img class = "telefone" src="imagens/telefone_ajuda.png" alt=""><b><span class="telefone_frase">Pelo 0800-023-5023</span></b></a>
+              </div>
+              <div class="informacoes_ajuda">
+                <a href="#"><img class = "telefone" src="imagens/mundo_icone.png" alt=""><b><span class="telefone_frase"> Online</span></b></a>
+              </div>
+            </div>
+          </inscricao></li>
+        </ul>
+      </nav>
+    </div>
+    <script>
+    function rotateArrow(element) {0
+      var arrow = element.querySelector('.arrow');
+      arrow.classList.add('rotate');
+    }
+    function resetArrow(element) {
+      var arrow = element.querySelector('.arrow');
+      arrow.classList.remove('rotate');
+    }
+    </script>
+    <script>
+      function abrirBarra() {
+      document.querySelector('.barra').style.height = '200px';
+    }
+      function fecharBarra() {
+      document.querySelector('.barra').style.height = '0';
+    }
+    </script>
+  </header>
+  <header class="second-level">
+    <div class="second-levelD">
+      <img class ="logo_faculdade" src="imagens/logoFaculdade1.jpg" alt="logo.faculdade">
+      <nav class="topicos">
+        <ul>
+          <li class="topico"><a href="cursos-graduacao.html"><cor>CURSOS</cor></a></li>
+          <li class="topico"><a href="sobre-a-borsuk.html">A BORSUK</a></li>
+          <li class="topico"><a href="fale-conosco.html">FALE CONOSCO</a></li>
+          <li class="botao-inscrever"><a class="cor_inscrevase" href="inscricao.html"><b>INSCREVA-SE</b> </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <div class="container">
+      <img class ="banner" src="imagens/Sem Título-1.jpg" alt=""> 
+      <div class="botoes">
+        <button class="botao_banner"><b><a class="cor_banner" href="cursos-pos.html">EXPLORAR CURSOS</a></b></button>
+      </div>
+      <div class="carouselfrase">
+        <div class="carousel-innerfrase">
+          <div class="carousel-itemfrase">Se o seu próximo passo é definir o que <b>vem pela frente...</b></div>
+          <div class="carousel-itemfrase">A Borsuk te espera, vem por aqui!</div>
+        </div>
+      </div>
+      <script>
+        const carouselItems = document.querySelectorAll('.carousel-itemfrase');
+
+let currentIndex = 0;
+
+function showNextItem() {
+  carouselItems[currentIndex].classList.remove('active');
+  currentIndex = (currentIndex + 1) % carouselItems.length;
+  carouselItems[currentIndex].classList.add('active');
+}
+
+function startCarousel() {
+  showNextItem();
+  setInterval(showNextItem, 3000);
+}
+
+startCarousel();
+      </script>
+
+      <h1 class="topicoI">OS MAIS PROCURADOS</h1>
+      <div class="cards">
+      <div class="card1">
+       <img class ="card_imagem" src="imagens/a2.png" alt="matematica_area">
+       <p class="card-titulo"><b>Gestão</b></p>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Administração</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Gestão de Recursos Humanos</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="mkt-digital.html">Marketing Digital</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Logística</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Gestão de Qualidade</a><span class="seta"></span></p>
+      </div>
+      <div class="card1">
+        <img class ="card_imagem" src="imagens/a3.png" alt="teconologia_area">
+        <p class="card-titulo"><b>Tecnologia</b></p>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Análise e Des. De Sistemas</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Gestão de Tecnologia da Informação</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="ciencia-computacao.html">Ciência da Computação</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="eng-software.html">Engenharia da Computação</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Ciência de Dados</a><span class="seta"></span></p>
+       </div>
+       <div class="card1">
+        <img class ="card_imagem" src="imagens/A4.png" alt="saude_area">
+        <p class="card-titulo"><b>Saúde</b></p>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Psicologia</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="enfermagem.html">Enfermagem</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Med. Veterinaria</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Odontologia</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Nutrição</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="biologia.html">Biomedicina</a><span class="seta"></span></p>
+       </div>
+       <div class="card1">
+        <img class ="card_imagem" src="imagens/a7.png" alt="professor_ensinando">
+        <p class="card-titulo"><b>Educação</b></p>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Pedagogia</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="ed-fisica.html">Ed. Fisica - Bacharelado</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Letras - Português e Inglês</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">História</a><span class="seta"></span></p>
+       <hr>
+       <p class="opcao_area"><a class ="opcoes_area" href="#">Telogia</a><span class="seta"></span></p>
+       </div>
+       <div class="tituloI">
+      <div class="topicoI2"><p>POR QUE ESTUDAR NA BORSUK?</p></div>
+      <p class="frase_titulo">As Melhores razões para crescer com sabedoria</p>
+    </div>
+      <div class="icones">
+        <img class ="icone" src="imagens/faculdade_icone.jpg" alt="faculdade_icone"> 
+        <img class ="icone" src="imagens/medalha_icone.jpg" alt="medalha_icone"> 
+        <img class ="icone" src="imagens/chapeu_icone.jpg" alt="chapeu_icone"></div>
+    </div>
+    <div class="titulos_icones">
+      <h1 class="titulo_icone">MAIS DE 75 ANOS DE HISTÓRIA</h1>
+      <h1 class="titulo_icone">TOP NO RANKING OFICIAL MEC</h1>
+      <h1 class="titulo_icone">MAIS DE 400 CURSOS</h1>
+    </div>
+    <div class="subtitulos_icones">
+      <p class="subtitulo_icone">A Borsuk foi fundada em 1946 e está preparada para enfrentar os desafios atuais e futuros do ensino superior brasileiro.</p>
+      <p class="subtitulo_icone">A Borsuk se mantém como a melhor universidade não pública do Estado de São Paulo e a segunda melhor do país.</p>
+      <p class="subtitulo_icone">Cursos de Graduação, Mestrado, Doutorado, Pós-Doutorado, Especialização, MBA, Aperfeiçoamento, Aprimoramento e Extensão. Escolha seu curso.</p>
+    </div>
+  </div>
+  </main>
+  <footer class="first-footer">
+    <img class ="logo_faculdade_footer" src="imagens/logo faculdade 1.png" alt="logo_faculdade">
+    <div class="topicos_footer">
+    <a href="index.html"><div class="topico_footer">Borsuk</div></a>
+    <a href="fale-conosco.html"><div class="topico_footer">Fale Conosco</div></a>
+    <a href="sobre-a-borsuk.html"><div class="topico_footer">Sobre a gente</div></a>
+  </div>
+  <div class="topicos_footer">
+    <a href=""><div class="topico_footer">Canal de Denuncias</div></a>
+    <a href=""><div class="topico_footer">Blog</div></a>
+    <a href=""><div class="topico_footer">Biblioteca</div></a>
+  </div>
+  <div class="topicos_footer">
+    <div class="topico_footer">Siga-nos</div>
+    <a href="https://pt-br.facebook.com/"><img class="icone_redes" src="imagens/logo_facebook.png" alt="logo_facebook"></a>
+    <a href="https://www.x.com/"><img class="icone_redes" src="imagens/twitter_logo.png" alt="twitter_logo"></a>
+    <a href="https://www.youtube.com/"><img class="icone_redes" src="imagens/youtube_logo.png" alt="youtube_logo"></a>
+    <a href="https://www.instagram.com/"><img class="icone_redes" src="imagens/insta_logo.png" alt="instagram_logo"></a>
+    <a href="https://br.pinterest.com/"><img class="icone_redes" src="imagens/pinterest_logo.png" alt="pinterest_logo"></a>
+  </div>
+  
+  </footer>
+  <footer class="second_footer">
+  <p class="topico_footer2">Copyright © 2020. Todos os Direitos Reservados</p>
+  <p class="topico_footer2">Serviço Nacional de Aprendizagem Comercial - SP</p>
+  <p class="topico_footer2">CNPJ: 02.379.424/0001-33</p>
+  <p class="topico_footer2">Política de Privacidade.</p>
+  <a href="https://www.siteblindado.com/"><i class="fa icone"><img class="siteblindado" src="imagens/siteBLINDADO.png" alt="site_blindado"></i></a>
+  </footer>
+</body>
+</html>

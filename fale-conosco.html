@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" type="image/x-icon" href="imagens/favicon-16x16.png">
+  <title>Faculdade Borsuk | Fale Conosco!</title>
+</head>
+<body>
+  <header class="first-level">
+    <div class="first-levelD">
+      <nav class="fl_ajuda">
+        <ul class="cima">
+          <li class="first-levelA"><a href="#"><i style="font-size:24px" class="fa">&#xf232;</i> Whatsapp</a></li>
+          <li class="first-levelA"><inscricao onmouseover="rotateArrow(this); abrirBarra()" onmouseout="resetArrow(this); fecharBarra()">
+            Acompanhe sua inscrição
+            <span class="arrow"></span>
+            <div class="barra">
+              <div class="informacoes_ajuda">
+                <a href="#"><img class = "telefone" src="imagens/telefone_ajuda.png" alt=""><b><span class="telefone_frase">Pelo 0800-023-5023</span></b></a>
+              </div>
+              <div class="informacoes_ajuda">
+                <a href="#"><img class = "telefone" src="imagens/mundo_icone.png" alt=""><b><span class="telefone_frase"> Online</span></b></a>
+              </div>
+            </div>
+          </inscricao></li>
+        </ul>
+      </nav>
+    </div>
+    <script>
+    function rotateArrow(element) {0
+      var arrow = element.querySelector('.arrow');
+      arrow.classList.add('rotate');
+    }
+    function resetArrow(element) {
+      var arrow = element.querySelector('.arrow');
+      arrow.classList.remove('rotate');
+    }
+    </script>
+    <script>
+      function abrirBarra() {
+      document.querySelector('.barra').style.height = '200px';
+    }
+      function fecharBarra() {
+      document.querySelector('.barra').style.height = '0';
+    }
+    </script>
+  </header>
+  <header class="second-level">
+    <div class="second-levelD">
+      <a href="index.html"><img class ="logo_faculdade" src="imagens/logoFaculdade1.jpg" alt="logo.faculdade"></a>
+      <nav class="topicos">
+        <ul>
+          <li class="topico"><a href="cursos-graduacao.html"><cor>CURSOS</cor></a></li>
+          <li class="topico"><a href="sobre-a-borsuk.html">A BORSUK</a></li>
+          <li class="topico"><a href="#">FALE CONOSCO</a></li>
+          <li class="botao-inscrever"><a class="cor_inscrevase" href="#"><b>INSCREVA-SE</b> </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="pesquisa_ajuda">
+      <h2 class="titulo-ajuda">COMO PODEMOS TE AJUDAR?</h1>
+    </div>
+    <ul class="tab-links-ajuda">
+      <li><a href="#" class="tab-link-ajuda" onclick="changeTab(event, 'tab1')"><formatacao-ajuda><img class ="icone-ajuda" src="imagens/soualuno_icone.png" alt="sou_aluno">JÁ SOU ALUNO</formatacao-ajuda></a></li>
+      <li><a href="#" class="tab-link-ajuda" onclick="changeTab(event, 'tab2')"><formatacao-ajuda><img class ="icone-ajuda" src="imagens/inscricao-ajuda.png" alt="">QUERO ME INSCREVER</formatacao-ajuda></a></li>
+      <li><a href="#" class="tab-link-ajuda" onclick="changeTab(event, 'tab3')"><formatacao-ajuda><img class ="icone-ajuda" src="imagens/pos-ajuda.png" alt="">PÓS GRADUAÇÃO</formatacao-ajuda></a></li>
+      <li><a href="#" class="tab-link-ajuda" onclick="changeTab(event, 'tab4')"><formatacao-ajuda><img class ="icone-ajuda" src="imagens/duvidas-ajuda.png" alt="">TENHO DUVIDAS</formatacao-ajuda></a></li>
+  </ul>
+  <div id="tab1" class="tab active">
+    <div class="card-ajuda">
+      <h3 class="card-ajuda-titulo">JÁ SOU ALUNO</h3>
+      <p class="card-ajuda-subtitle">Você pode, sempre que precisar, tirar suas dúvidas (boletos, grade curricular, notas e outras informações) no Portal do Aluno ou nos acessando em um dos canais disponíveis:</p>
+      <div class="grid-informacoes">
+      <h3 class="informacoes-titulo">Central de Atendimento ao Aluno</h3>
+      <h2 class="telefone-ajuda">3003-4030</h2>
+      <p class="local-informacao">Território Nacional</p>
+      <p class="local-informacao">Segunda a Sexta das 08h às 20h</p>
+      </div>
+      <div class="grid-informacoes">
+      <h3 class="informacoes-titulo">Central de Renegociação</h3>
+      <h2 class="telefone-ajuda">3003-9344</h2>
+      <p class="local-informacao">Para capitais e regiões metropolitanas</p>
+      <p class="local-informacao">Segunda a Sexta das 9h às 20h40</p>
+      <p class="local-informacao">Sábados das 8h às 16h</p>
+      </div>
+  </div>
+    
+</div>
+
+<div id="tab2" class="tab">
+  <div class="card-ajuda">
+    <h3 class="card-ajuda-titulo">QUERO ME INSCREVER</h3>
+    <p class="card-ajuda-subtitle">Canais para realizar sua inscrição</p>
+    <div class="grid-informacoes">
+    <h3 class="informacoes-titulo">Central de Atendimento ao Candidato</h3>
+    <h2 class="telefone-ajuda">0800-000-1579</h2>
+    </div>
+</div>
+</div>
+
+<div id="tab3" class="tab">
+  <div class="card-ajuda">
+    <h3 class="card-ajuda-titulo">PÓS GRADUAÇÃO</h3>
+    <p class="card-ajuda-subtitle">Canal exclusivo de interesse em saber mais sobre cursos de Pós-graduação, bolsas, como ingressar, matrículas e outras informações.</p>
+    <div class="grid-informacoes">
+    <h3 class="informacoes-titulo">Whatsapp</h3>
+    <h2 class="telefone-ajuda">(11) 2223-9523</h2>
+    <p class="local-informacao">Segunda a Sexta das 09h às 17h</p>
+    <p class="local-informacao">*Exceto feriados</p>
+    </div>
+    <div class="grid-informacoes">
+    <h3 class="informacoes-titulo">Central de Renegociação</h3>
+    <h2 class="telefone-ajuda">3003-9344</h2>
+    <p class="local-informacao">Para capitais e regiões metropolitanas</p>
+    <p class="local-informacao">Segunda a Sexta das 9h às 20h40</p>
+    <p class="local-informacao">Sábados das 8h às 16h</p>
+    </div>
+</div>
+  </div>
+  <div id="tab4" class="tab">
+    <div class="card-ajuda">
+      <h3 class="card-ajuda-titulo">TENHO DÚVIDAS</h3>
+      <p class="card-ajuda-subtitle">Para saber mais sobre cursos, bolsas, processo seletivo, matrícula, transferência, segunda graduação e outras informações.</p>
+      <div class="grid-informacoes">
+      <h2 class="telefone-ajuda">0800-000-1579</h2>
+      </div>
+  </div>
+  
+    </div>
+
+    <div class="informacoes-faculdade-ajuda">
+    <h4 class="titulo-informacoes-faculdade">INFORMAÇÕES</h4>
+    <p class="informacoes-faculdade">Anhanguera Educacional Participações Sa</p>
+    <p class="informacoes-faculdade">CNPJ: 04.310.392/0001-46</p>
+    <p class="informacoes-faculdade">Alameda Maria Teresa, Nº: 4266 - Dois Córregos</p>
+    <p class="informacoes-faculdade">Cep: 13278-181</p>
+    <p class="informacoes-faculdade">Valinhos - SP</p>
+  </div>
+    
+  <p class="frase-ajuda">Confira as dúvidas mais frequentes dos candidatos:</p>
+
+  <div class="topicos-ajuda">
+  <button class="topicos-duvidas-ajuda"onclick="rolarParaPosicao(1300)"><b class="nome-topicos-ajuda">BOLSAS E PAGAMENTOS</b></button>
+  <button class="topicos-duvidas-ajuda"onclick="rolarParaPosicao(1300)"><b class="nome-topicos-ajuda">ACADÊMICO</b></button>
+  <button class="topicos-duvidas-ajuda"onclick="rolarParaPosicao(1300)"><b class="nome-topicos-ajuda">MODALIDADES</b></button>
+  <button class="topicos-duvidas-ajuda"onclick="rolarParaPosicao(1550)"><b class="nome-topicos-ajuda">HORARIOS</b></button>
+</div>
+  <h2 class="titulo-topico-ajuda">BOLSAS E PAGAMENTOS</h2>
+  <div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto1')">A bolsa é durante todo o curso?</div>
+<div class="caixa-texto" id="caixaTexto1">
+  Sim, para o curso todo. Porém algumas bolsas precisam ser renovadas semestralmente.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto2')">Por que não aparece o desconto Enem no contrato?</div>
+<div class="caixa-texto" id="caixaTexto2">
+  Porque o desconto ENEM é concedido após a ativação da matrícula e aceite de contrato de serviços educacionais, bem como todas as demais bolsas e descontos.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto3')">Por que no boleto não aparece a descrição dos valores de desconto/cobrança?</div>
+<div class="caixa-texto" id="caixaTexto3">
+  No boleto temos a descrição de cobrança. Se a bolsa está lançada para o aluno, quando for liberado a boleto vai aparecer para o aluno.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto4')">Como é o reajuste anual?</div>
+<div class="caixa-texto" id="caixaTexto4">
+  Anualmente realizamos o reajuste do valor da mensalidade dos cursos seguindo as diretrizes da lei das mensalidades escolares, buscando manter a qualidade dos serviços prestados aos alunos.
+</div>
+</div>
+
+
+<h2 class="titulo-topico-ajuda">ACADÊMICO</h2>
+
+
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto5')">Como sei se o curso tem reconhecimento pelo MEC?</div>
+<div class="caixa-texto" id="caixaTexto5">
+  É possível consultar no e-mec:  (Consulta textual, pelo código da IES ou do curso) https://emec.mec.gov.br/. Ao entrar no site, é necessário clicar em em Ato Regulatório e conferir a situação do curso.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto6')">Quantos dias da semana posso ir na minha unidade para estudar?</div>
+<div class="caixa-texto" id="caixaTexto6">
+  Todos os dias, o acesso a biblioteca é livre para os alunos. Consulte o horário de atendimento da sua unidade.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto7')">Como acessar a grade curricular do curso?</div>
+<div class="caixa-texto" id="caixaTexto7">
+  Todos os dias, o acesso a biblioteca é livre para os alunos. Consulte o horário de atendimento da sua unidade.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto8')">Quando farei estágio?</div>
+<div class="caixa-texto" id="caixaTexto8">
+  O Estágio Supervisionado Curricular será realizado de acordo com a previsão na Matriz Curricular do Curso e diretriz curricular nacional.
+</div>
+</div>
+
+<h2 class="titulo-topico-ajuda">MODALIDADES</h2>
+
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto9')">Como são as provas?</div>
+<div class="caixa-texto" id="caixaTexto9">
+Na graduação presencial o mesmo irá realizar as provas presencialmente nas unidades no horário das aulas.  Observação: durante a pandemia os alunos de ambas as graduações estão realizando as provas de maneira digital por meio do ambiente virtual (pois foi autorizado pela legislação para esse período do COVID).
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto10')">As aulas são gravadas?</div>
+<div class="caixa-texto" id="caixaTexto10">
+  As aulas não gravadas e sim ministradas nas unidades pelos professores. (E neste momento da pandemia pelo COVID, estão sendo realizadas de forma remota e síncrona (ao vivo) pelo ambiente virtual de aprendizagem, tendo os professores o recurso e orientação para realizar a gravação.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto11')">Como funciona o TCC?</div>
+<div class="caixa-texto" id="caixaTexto11">
+  Na graduação presencial o aluno recebe as orientações dos professores e durante todo percurso do trabalho conta com o apoio do tutor, e recebe os feedbacks pelo ambiente virtual realizando ao final a banca para a apresentação do trabalho.
+</div>
+</div>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto12')">Fiz a matrícula no presencial e quero mudar para outra modalidade, posso?</div>
+<div class="caixa-texto" id="caixaTexto12">
+  Sim, No PDA temos a opção de Troca de Curso/Turno/Modalidade, ou pode procurar a sua unidade para troca.
+</div>
+</div>
+
+<h2 class="titulo-topico-ajuda">HORÁRIOS</h2>
+<div class="duvida-topico">
+  <div class="topico-duvida" onclick="mostrarCaixaTexto('caixaTexto13')">É possível mudar o horário da minha aula?</div>
+<div class="caixa-texto" id="caixaTexto13">
+  Não, o horário é padrão para todos os cursos, mas é possível alinhar com o Coordenador de Curso a reposição das aulas faltantes.
+</div>
+</div>
+
+<script>
+  function mostrarCaixaTexto(idCaixa) {
+    var caixaTexto = document.getElementById(idCaixa);
+    if (caixaTexto.style.display === "none") {
+      caixaTexto.style.display = "block";
+    } else {
+      caixaTexto.style.display = "none";
+    }
+  }
+</script>
+  <script>
+    function changeTab(event, tabId) {
+            var i, tabContent, tabLinks;
+            tabContent = document.getElementsByClassName("tab");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            tabLinks = document.getElementsByClassName("tab-link-ajuda");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabId).style.display = "block";
+            event.currentTarget.className += " active";
+        }
+    </script>
+  </script>
+  <script>
+    function rolarParaPosicao(posicaoY) {
+      var posicaoAtual = window.pageYOffset;
+      var distancia = posicaoY - posicaoAtual;
+      var duracao = 500; // tempo de duração da animação em milissegundos
+      var inicio = null;
+
+      function animarRolagem(timestamp) {
+        if (!inicio) inicio = timestamp;
+        var progresso = timestamp - inicio;
+        var porcentagem = Math.min(progresso / duracao, 1);
+        var posicao = posicaoAtual + distancia * porcentagem;
+
+        window.scrollTo(0, posicao);
+
+        if (progresso < duracao) {
+          requestAnimationFrame(animarRolagem);
+        }
+      }
+
+      requestAnimationFrame(animarRolagem);
+    }
+  </script>
+  </main>
+  <footer class="first-footer">
+    <img class ="logo_faculdade_footer" src="imagens/logo faculdade 1.png" alt="logo_faculdade">
+    <div class="topicos_footer">
+    <a href="index.html"><div class="topico_footer">Borsuk</div></a>
+    <a href="fale-conosco.html"><div class="topico_footer">Fale Conosco</div></a>
+    <a href="sobre-a-borsuk.html"><div class="topico_footer">Sobre a gente</div></a>
+  </div>
+  <div class="topicos_footer">
+    <a href=""><div class="topico_footer">Canal de Denuncias</div></a>
+    <a href=""><div class="topico_footer">Blog</div></a>
+    <a href=""><div class="topico_footer">Biblioteca</div></a>
+  </div>
+  <div class="topicos_footer">
+    <div class="topico_footer">Siga-nos</div>
+    <a href="https://pt-br.facebook.com/"><img class="icone_redes" src="imagens/logo_facebook.png" alt="logo_facebook"></a>
+    <a href="https://www.x.com/"><img class="icone_redes" src="imagens/twitter_logo.png" alt="twitter_logo"></a>
+    <a href="https://www.youtube.com/"><img class="icone_redes" src="imagens/youtube_logo.png" alt="youtube_logo"></a>
+    <a href="https://www.instagram.com/"><img class="icone_redes" src="imagens/insta_logo.png" alt="instagram_logo"></a>
+    <a href="https://br.pinterest.com/"><img class="icone_redes" src="imagens/pinterest_logo.png" alt="pinterest_logo"></a>
+  </div>
+  
+  </footer>
+  <footer class="second_footer">
+  <p class="topico_footer2">Copyright © 2020. Todos os Direitos Reservados</p>
+  <p class="topico_footer2">Serviço Nacional de Aprendizagem Comercial - SP</p>
+  <p class="topico_footer2">CNPJ: 02.379.424/0001-33</p>
+  <p class="topico_footer2">Política de Privacidade.</p>
+  <a href="https://www.siteblindado.com/"><i class="fa icone"><img class="siteblindado" src="imagens/siteBLINDADO.png" alt="site_blindado"></i></a>
+  </footer>
+</body>
+</html>

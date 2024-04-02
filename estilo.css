@@ -1,0 +1,1256 @@
+.tab {
+    display: none; 
+    padding: 20px;
+    background-color: #ffecd879;
+  }
+  .tab.active {
+    display: block; 
+    background-color: #ffecd879;
+  }
+  .tab-links {
+    margin-bottom: 20px;
+  }
+
+  .tab-link {
+    position: relative;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+    color: #c9c9c9;
+    text-decoration: none;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin-top: 10px;
+    left: 13%;
+    margin-left: 1%; 
+  }
+        .tab-link.active {
+        background-color: #c47f35;
+        color: white;
+        }
+      .tab {
+        display: none;
+      }
+
+      .tab.active {
+        display: block;
+      }
+      .tab-link.active {
+        background-color: #c47f35;
+      }
+      li{
+          list-style-type: none;
+          display: inline;
+      }
+      .pesquisa{
+          position: relative;
+          margin-top: 20px;
+          width: 900px;
+          max-width: 100%;
+          left: 28%;
+      }
+
+      .card {
+        width: 300px;
+        height: auto;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        display: inline-block;
+        margin-left: 30px;
+    }
+    @media screen and (max-width: 768px) {
+        .card {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    }
+
+    .card h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        text-decoration: none;
+        color: #0099ff;
+        font-weight: bold;
+    }
+
+.frase{
+    position: relative;
+    width: 600px;
+    padding-left: 590px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.cardContainer1, .cardContainer2{
+    padding-top: 20px;
+    margin-left: 210px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.second-levelD {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.second-level{
+  color: #fff;
+  padding: 17px;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(97, 97, 97, 0.5);
+}
+
+main {
+  padding: 20px 0;
+}
+
+.logo_faculdade{
+    width: 250px;
+    position: absolute;
+    left: 13%;
+    top: 6.2%;
+}
+
+.first-level{
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.topico{
+    padding-left: 30px;
+}
+nav ul li a {
+  color: black;
+}
+.botao-inscrever{
+    position: relative;
+    left: 29%;
+    border: 1px solid #c47f35;
+    border-radius: 30px;
+    padding: 9px;
+    width: fit-content;
+    background-color: #c47f35;
+    box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.4s ease;
+}
+.botao-inscrever:hover{
+    box-shadow: 0 0 20px 5px #f3ab5e;
+}
+
+.cor_inscrevase{
+  color: white !important;
+}
+
+.first-levelA{
+    position: relative;
+    padding-left: 20px;
+    flex: 1 1 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.arrow {
+    margin-top: 14px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    transition: transform 0.3s;
+    float: right;
+  }
+  
+  .rotate {
+  transform: rotate(180deg) !important; 
+}
+
+  .fl_ajuda{
+    position: relative;
+    width: 400px;
+    left: 68%;
+  }
+
+  .first-levelD{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cima{
+    width: 350px;
+  }
+
+inscricao:hover{
+    cursor: pointer;
+  }
+  
+  .banner{
+    z-index: -1;
+    position: relative;
+    top: 1%;
+    width: auto;
+    max-width: 100%;
+    display: flex;
+  }
+
+  .cor_banner{
+    color: #c47f35;
+    transition: color 0.5s ease;
+  }
+  .cor_banner2{
+    color: white;
+  }
+  .botoes {
+    position: relative;
+    transform: translate(0%, -7%);
+    width: 100%;
+    height: 57px;
+    background-color: #c47f35;
+  }
+  
+  .botao_banner:nth-child(1){
+    position: relative;
+    left: 52%;
+    top: 0;
+    transform: translate(-70%, -350%);
+    padding: 11px 23px;
+    border: 1px solid #c47f35;
+    border-radius: 30px;
+    width: fit-content; 
+    margin-left: 7px;
+    color: #c47f35;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+  }
+  .botao_banner:hover{
+    background-color: #c47f35;
+  }
+  .botao_banner:hover .cor_banner{
+    color: white;
+  }
+
+  .botao_banner:nth-child(2){
+    position: relative;
+    left: 52%;
+    top: 0;
+    transform: translate(-70%, -475%);
+    padding: 11px 23px;
+    border: 1px solid #c47f35;
+    border-radius: 30px;
+    width: fit-content; 
+    margin-left: 7px;
+    background-color: #c47f35;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .botao_banner {
+      padding: 15px;
+      font-size: 12px;
+    }
+  }
+
+  .banner2{
+    width: 100%;
+    height: 80px;
+  }
+
+  .carousel-itemfrase {
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-itemfrase.active {
+    display: block;
+  }
+
+  .carouselfrase{
+    position: relative;
+    left: 41%;
+    transform:translate(0%,-220%);
+    width: fit-content;
+    color: white;
+}
+
+.topicoI{
+    color:#c47f35;
+    position: relative;
+    left: 13%;
+    font-size: 37px;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+.card_imagem{
+    width: 300px;
+    position: relative;
+}
+
+.card1{
+        width: 300px;
+        height: 500px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        padding: 0;
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        margin-left: 15px;
+        box-shadow: 0px 1px 40px rgba(97, 97, 97, 0.5);
+        left: 12%;
+
+}
+
+.topicoI2{
+    color: #744F28;
+    position: relative;
+    font-size: 37px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.tituloI{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.frase_titulo{
+  margin-bottom: 30px;
+  color: #c47f35;
+  font-size: 22px;
+}
+.icones{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.titulos_icones{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 180px;
+    color: #744F28;
+}
+.titulo_icone{
+    display: inline-flex;
+    position: relative;
+    max-width: 100%;
+    width: 300px;
+    height: 100px;
+    
+}
+
+.subtitulos_icones{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 180px;
+    color: #c47f35;
+    font-size: 22px;
+}
+.subtitulo_icone{
+    display: inline-flex;
+    position: relative;
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+}
+
+.logo_faculdade_footer{
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  display: inline-flexbox;
+  float: left;
+  left: 8%;
+}
+
+.topicos_footer{
+  position: relative;
+  float: left;
+  top: 30%;
+  margin-left: 150px;
+}
+
+.first-footer{
+  background-color: #744F28;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+
+.icone_redes{
+  width: 35px;
+  height: 30px;
+  position: relative;
+  display: inline-flex;
+  max-width: 100%;
+  margin-top: 5px;
+  left: 33%;
+}
+
+.second_footer{
+  background-color: #553a1d;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  gap: 70px;
+  font-size: 12px;
+  color: white;
+}
+
+.siteblindado{
+  width: 100px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  max-width: 100%;
+}
+
+.topico_footer{
+  margin-bottom: 5px;
+  color: white;
+  transition: color 0.2s ease;
+}
+.topico_footer:hover{
+  color: rgba(255, 255, 255, 0.432);
+
+}
+.topico_footer2{
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: auto;
+  margin-top: 7px;
+}
+.icone {
+  font-size: 24px;
+  color: #000;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icone:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.icone__redes {
+  font-size: 24px;
+  color: #000;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icone_redes:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.card-titulo{
+  font-size: 22px;
+  margin: 20px 13px;
+  color: #553a1d
+}
+.opcoes_area{
+  margin-left: 20px;
+  font-size: 15px;
+  color: #5f5f5f;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 10px;
+}
+
+.seta {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000;
+  position: relative;
+  float: right;
+  right: 5%;
+  margin-top: 8px;
+}
+
+.opcao_area{
+  height: 25px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.opcao_area:hover{
+  background-color: #fdebd8;
+}
+
+.barra {
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+  left: 8%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 1px 4px rgba(97, 97, 97, 0.5);
+  overflow: hidden;
+  transition: height 0.3s ease;
+  z-index: 1;
+  cursor: default;
+}
+
+.inscricao:hover .barra {
+  height: 50px;
+}
+
+.telefone{
+  position: relative;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.informacoes_ajuda{
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  top: 19%;
+}
+
+.telefone_frase{
+  position: relative;
+  display: inline-flex;
+  color: #505050;
+}
+
+.pergunta1{
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: fit-content;
+  left: 13.5%;
+}
+
+.barraPesquisa{
+background-color:#ffecd879;
+position: relative;
+max-width: 100%;
+width: auto;
+}
+
+.botaoCursos{
+  width: fit-content;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 12px 30px;
+  background-color: #744F28;
+  cursor: pointer;
+  border: 1px solid #744F28;
+}
+.botaoCursos2{
+  width: fit-content;
+  position: relative;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 12px 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.botaoCursos3{
+  width: fit-content;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 12px 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.botaoCursos4{
+  width: fit-content;
+  position: relative;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 12px 30px;
+  background-color: #744F28;
+  cursor: pointer;
+  border: 1px solid #744F28;
+}
+.cursosBotoes{
+  display: inline-flex;
+  position: relative;
+  left: 13.5%;
+  width: fit-content;
+}
+
+.barradePesquisa{
+  position: relative;
+  display: inline-flex;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 60%;
+  transition: box-shadow 0.4s ease;
+}
+
+.barradePesquisa:focus{
+  box-shadow: 0 0 10px 5px #f3ab5e;
+}
+
+
+.botaoPesquisar{
+  position: relative;
+  margin-left: 30px;
+  padding: 10px 25px;
+  border: 1px;
+  background-color:  #c47f358a;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #2b1d0e;
+  box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.pesquisa1{
+  width: auto;
+}
+
+.presen_hibrid{
+  position: relative;
+  left: 11.9%;
+  top: -2%;
+  width: fit-content;
+}
+
+cores{
+  color: white;
+}
+cores2{
+  color: #2b1d0e;
+}
+cores3{
+  color: #2b1d0e;
+}
+cores4{
+  color: white;
+}
+.barra_btoCurso{
+  position: relative;
+  margin-left: 250px;
+  margin-right: 300px;
+  border-width: 3px;
+  top: -14%;
+}
+
+.botaoSaibaMais{
+  position: relative;
+  border: 1px solid #744F28;
+  border-radius: 20px;
+  padding: 5px 8px;
+  color: #744F28 !important;
+}
+
+.botaoPreInscricao{
+  position: relative;
+  border: 1px solid #4bbdff;
+  border-radius: 20px;
+  padding: 5px 8px;
+  color: #4bbdff !important;
+  margin-left: 15%;
+}
+
+dialog{
+  max-width: 100%;
+  top: 25%;
+  left: 40%;
+  width: 350px;
+  height: fit-content;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 0 0 1em rgb(0 0 0 / .3);
+  animation: slideDown 0.3s ease-out;
+}
+
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20%);
+  }
+  20% {
+    transform: translateY(0);
+  }
+}
+
+.titulo_popup{
+  margin: 20px;
+  color: #0099ff;
+  width: fit-content;
+}
+
+.subtitulo_popup{
+  margin: 20px;
+
+}
+
+.input_popup{
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  padding: 10px;
+  padding-right: 35%;
+  border: 1px solid #838383;
+  transition: box-shadow 0.4s ease;
+}
+.input_popup:focus{
+  box-shadow: 0 0 10px 5px #f3ab5e;
+}
+.bto_popup{
+  margin: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  padding-right: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e4e4e4;
+  border: none;
+  color: #505050;
+}
+
+.fechar_janela{
+  cursor: pointer;
+  position: relative;
+  left: 80%;
+  color: #b6b6b6 !important;
+}
+
+.imagens_sobre{
+  position: relative;
+  left: 15%;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.imagem_sobre{
+  display: inline-flex;
+  position: relative;
+  margin-left: 100px;
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.texto-sobre{
+  position: relative;
+  margin-top: 30px;
+  margin-left: 13.2%;
+  width: 72%;
+  justify-content: center;
+  text-align: center;
+}
+.titulo-sobre{
+  margin-top: 20px;
+  margin-left: 13.2%;
+  color: #2b1d0e;
+}
+.subtitulo-sobre{
+  margin-left: 13.2%;
+  margin-top: 5px;
+  color: #2b1d0e;
+}
+
+.tab-link-ajuda {
+  position: relative;
+  display: inline-block;
+  padding: 30px 60px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+  color: #c9c9c9;
+  text-decoration: none;
+  border-radius: 9px;
+  margin-top: 10px;
+  left: 15.5%;
+  margin-left: 2%; 
+}
+      .tab-link-ajuda.active {
+      background-color: #c47f35;
+      color: white;
+      }
+    .tab {
+      display: none;
+    }
+
+    .tab.active {
+      display: block;
+    }
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+.tab-links-ajuda {
+  margin-bottom: 15px;
+  position: relative;
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
+}
+formatacao-ajuda{
+  display: grid;
+  color: #000;
+}
+
+.icone-ajuda{
+  position: relative;
+  width: 45px;
+  max-width: 100%;
+  left: 30%;
+}
+
+.titulo-ajuda{
+  margin-left: 13.2%;
+  color: #553a1d;
+  margin-bottom: 10px;
+}
+.card-ajuda {
+  position: relative;
+  width: 70%;
+  height: auto;
+  background-color: #fffcf9b0;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-flexbox;
+  left: 11.5%;
+}
+@media screen and (max-width: 768px) {
+  .cardv {
+      display: inline-block;
+      margin-right: 20px;
+  }
+}
+.card-ajuda h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-ajuda p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.card-ajuda a {
+  text-decoration: none;
+  color: #0099ff;
+  font-weight: bold;
+}
+
+.card-ajuda-titulo{
+  margin: 10px;
+}
+
+.card-ajuda-subtitle{
+  margin: 10px;
+}
+
+.grid-informacoes{
+  width: fit-content;
+  position: relative;
+  display: inline-flexbox;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.topico-duvida {
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #ffecd879;
+}
+
+.caixa-texto {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: none;
+}
+
+.informacoes-faculdade-ajuda{
+  position: relative;
+  left: 13%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: fit-content;
+}
+
+.topicos-ajuda{
+  position: relative;
+  left: 13%;
+  max-width: 100%;
+  width: 23%;
+  margin-bottom: 50px;
+}
+
+.frase-ajuda{
+  position: relative;
+  left: 13%;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.titulo-topico-ajuda{
+  position: relative;
+  left: 13%;
+  width: fit-content;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.duvida-topico{
+  position: relative;
+  left: 13%;
+  width: 75%;
+  margin-top: 10px;
+}
+.titulo-informacoes-faculdade{
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.topicos-duvidas-ajuda{
+  position: relative;
+  display: grid;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 8px;
+  text-align: start;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  }
+.topicos-duvidas-ajuda:hover{
+  background-color: #c47f35;
+  color: white;
+}
+
+.informacoes-faculdade{
+  width: fit-content;
+}
+
+.nome-topicos-ajuda{
+  margin-left: 10px;
+}
+
+.inicio-curso{
+  background-color: #ffecd879;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  top: -20px;
+  padding-bottom: 20px;
+}
+
+.subtitulo-curso{
+  display: grid;
+  width: fit-content;
+  margin-top: 10px;
+  position: relative;
+  left: 13.5%;
+}
+
+.titulo-curso{
+  display: grid;
+  width: fit-content;
+  margin-top: 10px;
+  position: relative;
+  left: 13.5%;
+  margin-top: 20px;
+  color:  #c47f35;
+}
+
+.informacoes-curso{
+  display: grid;
+  max-width: fit-content;
+  margin-top: 10px;
+  position: relative;
+  left: 13.5%;
+  width: 400px;
+}
+
+.card-curso {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 1px 10px rgba(97, 97, 97, 0.5);
+  display: inline-block;
+  left: 13%;
+}
+@media screen and (max-width: 768px) {
+  .card-curso {
+      display: inline-block;
+      margin-right: 20px;
+  }
+}
+
+.card-topicos{
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  margin-left: 180px;
+  font-size: 14px;
+}
+
+.card-informacoes{
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  margin-left: 139px;
+  font-size: 20px;
+}
+
+.btoInscreva-se{
+    position: relative;
+    border: 1px solid #505050;
+    border-radius: 30px;
+    padding: 9px;
+    width: fit-content;
+    background-color: #83838360;
+    box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.5);
+    left: 9%;
+    top: -10px;
+    cursor: pointer;
+}
+
+.imagem-curso{
+  position: relative;
+  max-width: 100%;
+  width: 1000px;
+  height: 550px;
+  max-height: 100%;
+  margin-left: 13%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.info_curso{
+  position: relative;
+  left: 13%;
+  margin-top: 40px;
+  width: fit-content;
+}
+
+.sobre-curso{
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.descricao-curso{
+  position: relative;
+  width: 1400px;
+  max-width: fit-content;
+}
+
+.pagina-inscricao{
+  background-color: #ffecd879;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 330px;
+  height: 30px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.progress-label {
+  position: absolute;
+  top: -20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+.janela-inscricao{
+  height: 97.3%;
+  width: fit-content;
+  position: relative;
+  left: 75.9%;
+  top: -35.5%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.h4-inscricao{
+  font-size: 18px;
+  color: #c47f35;
+}
+
+.selecione-curso{
+  color: #c47f35;
+  background-color: #dbdbdb;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.letra-inscricao{
+  background-color: #f1f1f1;
+  font-size: 14px;
+}
+
+.curso-inscricao{
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.cursos{
+  overflow-y: scroll !important;
+}
+
+.botao-inscricao{
+  margin-top: 5px;
+  padding: 20px 85px;
+  border-radius: 30px;
+  background-color: #f3ab5e5e;
+  border-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 0.4s ease;
+}
+.botao-inscricao:hover{
+    box-shadow: 0 0 5px 2px #f3ab5e;
+}
+
+label{
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.texto-inscricao{
+  left: 46%;
+  top: 33%;
+  position: relative;
+  width: 450px;
+  text-align: right;
+}
+.conteudo-texto{
+
+  font-size: 44px;
+  color: #f3ab5e;
+}
+.subtitulo-inscricao{
+  font-size: 20px;
+  color: #5f5f5f;
+}
+.frase-inscricao{
+  color: #838383;
+}
+.titulo-inscricao{
+  color: #5f5f5f;
+}
+
+.sair{
+  position: absolute;
+  left: 1%;
+  top: 2%;
+  font-size: 40px;
+  transform:rotate(180deg);
+  cursor: pointer;
+  color: black;
+}

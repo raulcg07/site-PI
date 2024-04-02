@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon-16x16.png">
+    <title>Faculdade Borsuk | Cursos de Graduação</title>
+</head>
+<body>
+    <header class="first-level">
+        <div class="first-levelD">
+          <nav class="fl_ajuda">
+            <ul class="cima">
+              <li class="first-levelA"><a href="#"><i style="font-size:24px" class="fa">&#xf232;</i> Whatsapp</a></li>
+              <li class="first-levelA"><inscricao onmouseover="rotateArrow(this); abrirBarra()" onmouseout="resetArrow(this); fecharBarra()">
+                Acompanhe sua inscrição
+                <span class="arrow"></span>
+                <div class="barra">
+                  <div class="informacoes_ajuda">
+                    <a href="#"><img class = "telefone" src="imagens/telefone_ajuda.png" alt=""><b><span class="telefone_frase">Pelo 0800-023-5023</span></b></a>
+                  </div>
+                  <div class="informacoes_ajuda">
+                    <a href="#"><img class = "telefone" src="imagens/mundo_icone.png" alt=""><b><span class="telefone_frase"> Online</span></b></a>
+                  </div>
+                </div>
+              </inscricao></li>
+            </ul>
+          </nav>
+        </div>
+        <script>
+        function rotateArrow(element) {0
+          var arrow = element.querySelector('.arrow');
+          arrow.classList.add('rotate');
+        }
+        function resetArrow(element) {
+          var arrow = element.querySelector('.arrow');
+          arrow.classList.remove('rotate');
+        }
+        </script>
+        <script>
+          function abrirBarra() {
+          document.querySelector('.barra').style.height = '200px';
+        }
+          function fecharBarra() {
+          document.querySelector('.barra').style.height = '0';
+        }
+        </script>
+      </header>
+      <header class="second-level">
+        <div class="second-levelD">
+          <a href="index.html"><img class ="logo_faculdade" src="imagens/logoFaculdade1.jpg" alt="logo.faculdade"></a>
+          <nav class="topicos">
+            <ul>
+              <li class="topico"><a href="cursos-graduacao.html"><cor>CURSOS</cor></a></li>
+              <li class="topico"><a href="sobre-a-borsuk.html">A BORSUK</a></li>
+              <li class="topico"><a href="fale-conosco.html">FALE CONOSCO</a></li>
+              <li class="botao-inscrever"><a class="cor_inscrevase" href="inscricao.html"><b>INSCREVA-SE</b> </a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div>
+    <p class="pergunta1">Está em dúvida? Combine as opções e descubra o curso ideal para você.</p>
+</div>
+    <div class="cursosBotoes">
+    <button class="botaoCursos"><a href="cursos-graduacao.html"><b><cores>GRADUAÇÃO</cores></b></a></button>
+    <button class="botaoCursos2"><a href="cursos-pos.html"><b><cores2>PÓS-GRADUAÇÃO</cores2></b></a></button>
+</div>
+    <br>
+    <div class="barraPesquisa">
+    <div class="pesquisa">
+        <input class ="barradePesquisa" type="text" id="searchInput" placeholder="Digite o termo de pesquisa">
+        <button class ="botaoPesquisar" onclick="filterCards()"><b>Pesquisar</b></button>
+    </div>
+    
+    <ul class="tab-links">
+        <li><a href="#" class="tab-link" onclick="changeTab(event, 'tab1')">Presencial</a></li>
+        <li><a href="#" class="tab-link" onclick="changeTab(event, 'tab2')">Híbrido</a></li>
+    </ul>
+    <hr class="barra_btoCurso">
+</div>
+
+    <div id="tab1" class="tab active">
+        <h2 class="presen_hibrid">Cursos de Graduação Presenciais</h2>
+        <div class =" cardContainer1" id="cardContainer1">
+            <div class="card">
+                <h3 class="card-title">Enfermagem</h3>
+                <p class="card-subtitle">Aprenda cuidados de saúde, assistência ao paciente e práticas de enfermagem.</p>
+                <p>Duração: 4 anos</p>
+                <a class ="botaoSaibaMais" href="enfermagem.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Economia</h3>
+                <p class="card-subtitle">Estude teorias econômicas, análise de mercado e políticas financeiras.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="economia.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Marketing Digital</h3>
+                <p class="card-subtitle">Explore estratégias de marketing online, publicidade digital e análise de dados.</p>
+                <p>Duração: 2 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="mkt-digital.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Jornalismo</h3>
+                <p class="card-subtitle">Aprenda a investigar, escrever e comunicar notícias e reportagens.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="jornalismo.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Engenharia Civil</h3>
+                <p class="card-subtitle">Projete, construa e gerencie infraestruturas e estruturas civis.</p>
+                <p>Duração: 5 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="eng-civil.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Biologia</h3>
+                <p class="card-subtitle">Estude a vida e os organismos vivos, desde a célula até os ecossistemas.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="biologia.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Direito</h3>
+                <p class="card-subtitle">Aprenda sobre leis, regulamentações e sistemas legais.</p>
+                <p>Duração: 5 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="direito.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Educação Física</h3>
+                <p class="card-subtitle">Explore atividades físicas, saúde, esportes e treinamento.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="ed-fisica.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Contabilidade</h3>
+                <p class="card-subtitle">Aprenda a registrar, analisar e interpretar transações financeiras e relatórios.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="contabilidade.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab2" class="tab">
+        <h2 class="presen_hibrid">Cursos de Graduação Híbridos</h2>
+        <div class =" cardContainer2" id="cardContainer2">
+            <div class="card">
+                <h3 class="card-title">Engenharia de Software</h3>
+                <p class="card-subtitle">Aprenda a projetar, desenvolver e testar software de alta qualidade.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="eng-software.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+        
+            <div class="card">
+                <h3 class="card-title">Arquitetura</h3>
+                <p class="card-subtitle">Descubra os princípios de design e planejamento arquitetônico.</p>
+                <p>Duração: 5 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="arquitetura.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+        
+            <div class="card">
+                <h3 class="card-title">Ciência da Computação</h3>
+                <p class="card-subtitle">Explore os fundamentos teóricos e práticos da ciência da computação.</p>
+                <p>Duração: 3 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="ciencia-computacao.html">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+        
+            <div class="card">
+                <h3 class="card-title">Administração</h3>
+                <p class="card-subtitle">Desenvolva habilidades em gestão, finanças, marketing e empreendedorismo.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="#">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">Administração</h3>
+                <p class="card-subtitle">Desenvolva habilidades em gestão, finanças, marketing e empreendedorismo.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="#">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Engenharia de Software</h3>
+                <p class="card-subtitle">Explore o mundo da programação, desenvolvimento de software e engenharia de sistemas.</p>
+                <p>Duração: 4 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="#">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Design Gráfico</h3>
+                <p class="card-subtitle">Aprenda técnicas de design, manipulação de imagens e criação de mídia visual.</p>
+                <p>Duração: 3 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="#">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Medicina</h3>
+                <p class="card-subtitle"class="card-subtitle">Torne-se um profissional de saúde e aprenda sobre o diagnóstico, tratamento e prevenção de doenças.</p>
+                <p>Duração: 6 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="#">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Psicologia</h3>
+                <p class="card-subtitle">Estude a mente humana, comportamento, emoções e desenvolvimento pessoal.</p>
+                <p>Duração: 5 anos</p>
+                <hr>
+                <a class ="botaoSaibaMais" href="#">Saiba mais</a>
+                <a class ="botaoPreInscricao" href="#">Pré-Inscrição</a>
+            </div>
+        </div>
+    </div>
+    <dialog>
+        <h3 class="titulo_popup"><b>PRÉ-INSCRIÇÃO <span class="fechar_janela">X</span></b></h3>
+        <p class="subtitulo_popup">Fazendo a pré-inscrição você será notificado quando houver novas turmas ou ofertas exclusivas sobre o curso.</p>
+        <input class="input_popup" type="text" placeholder="Nome"> </div>
+        <input class="input_popup"type=" text" placeholder="E-mail"> </div>
+        <input class="input_popup"type=" text" placeholder="Celular"> </div>
+        <div><button class="bto_popup"><b>ENVIAR</b></button></div>
+    </dialog>
+    <script>
+        const botoes_popup = document.querySelectorAll(".botaoPreInscricao");
+        const modal = document.querySelector("dialog");
+        const botaoFechar = document.querySelector(".fechar_janela");
+
+        botoes_popup.forEach(function(botao) {
+            botao.addEventListener("click", function() {
+                modal.showModal();
+            });
+        });
+
+        botaoFechar.onclick = function () {
+            modal.close()
+        }
+    </script>
+    <script>
+        var cardContainer1 = document.getElementById("cardContainer1");
+        var cardContainer2 = document.getElementById("cardContainer2");
+        var cards1 = cardContainer1.getElementsByClassName("card");
+        var cards2 = cardContainer2.getElementsByClassName("card");
+        var searchInput = document.getElementById("searchInput");
+
+        function filterCards() {
+            var searchTerm = searchInput.value.trim().toUpperCase();
+
+            Array.from(cards1).forEach(function (card) {
+                var cardText = card.textContent.trim().toUpperCase();
+                if (cardText.includes(searchTerm)) {
+                    card.style.display = "inline-block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+
+            Array.from(cards2).forEach(function (card) {
+                var cardText = card.textContent.trim().toUpperCase();
+                if (cardText.includes(searchTerm)) {
+                    card.style.display = "inline-block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        }
+
+        function changeTab(event, tabId) {
+            var i, tabContent, tabLinks;
+            tabContent = document.getElementsByClassName("tab");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            tabLinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabId).style.display = "block";
+            event.currentTarget.className += " active";
+        }
+    </script>
+</div>
+
+<footer class="first-footer">
+    <img class ="logo_faculdade_footer" src="imagens/logo faculdade 1.png" alt="logo_faculdade">
+    <div class="topicos_footer">
+    <a href="index.html"><div class="topico_footer">Borsuk</div></a>
+    <a href="fale-conosco.html"><div class="topico_footer">Fale Conosco</div></a>
+    <a href="sobre-a-borsuk.html"><div class="topico_footer">Sobre a gente</div></a>
+  </div>
+  <div class="topicos_footer">
+    <a href=""><div class="topico_footer">Canal de Denuncias</div></a>
+    <a href=""><div class="topico_footer">Blog</div></a>
+    <a href=""><div class="topico_footer">Biblioteca</div></a>
+  </div>
+  <div class="topicos_footer">
+    <div class="topico_footer">Siga-nos</div>
+    <a href="https://pt-br.facebook.com/"><img class="icone_redes" src="imagens/logo_facebook.png" alt="logo_facebook"></a>
+    <a href="https://www.x.com/"><img class="icone_redes" src="imagens/twitter_logo.png" alt="twitter_logo"></a>
+    <a href="https://www.youtube.com/"><img class="icone_redes" src="imagens/youtube_logo.png" alt="youtube_logo"></a>
+    <a href="https://www.instagram.com/"><img class="icone_redes" src="imagens/insta_logo.png" alt="instagram_logo"></a>
+    <a href="https://br.pinterest.com/"><img class="icone_redes" src="imagens/pinterest_logo.png" alt="pinterest_logo"></a>
+  </div>
+  
+  </footer>
+  <footer class="second_footer">
+  <p class="topico_footer2">Copyright © 2020. Todos os Direitos Reservados</p>
+  <p class="topico_footer2">Serviço Nacional de Aprendizagem Comercial - SP</p>
+  <p class="topico_footer2">CNPJ: 02.379.424/0001-33</p>
+  <p class="topico_footer2">Política de Privacidade.</p>
+  <a href="https://www.siteblindado.com/"><i class="fa icone"><img class="siteblindado" src="imagens/siteBLINDADO.png" alt="site_blindado"></i></a>
+  </footer>
+</body>
+</html>
